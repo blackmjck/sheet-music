@@ -11,6 +11,7 @@ partFluteII = \include "partials/flute-II.ily"
 partOboe = \include "partials/oboes.ily"
 partClarinet = \include "partials/clarinets.ily"
 partBassoon = \include "partials/bassoon.ily"
+partHorns = \include "partials/horns.ily"
 
 % Part scoring
 
@@ -42,6 +43,10 @@ scoreBassoonPart = \new Staff \with {
   midiInstrument = "bassoon"
 } << \partBassoon \rhythms >>
 
+scoreHornPart = \new Staff \with {
+  midiInstrument = "french horn"
+} << \partHorns \rhythms >>
+
 % Staff scoring
 
 scoreFlutes = \new StaffGroup {
@@ -58,11 +63,11 @@ scoreWoodwinds = <<
   \scoreBassoonPart
 >>
   
-% scoreBrass = <<
-%   \scoreHorns
-%   \scoreTrumpets
-%   \scoreTrombone
-% >>
+scoreBrass = <<
+  \scoreHornPart
+%   \scoreTrumpetPart
+%   \scoreTrombonePart
+>>
 
 % scorePercussion = <<
 %   \scoreTimpani
@@ -117,11 +122,15 @@ scoreWoodwinds = <<
         \null
         \null
         \abs-fontsize #28 \bold "Il Barbiere Di Siviglia"
-        \abs-fontsize #8 \null
+        \abs-fontsize #12 \null
         \abs-fontsize #22 "G. Rossini" 
         \null
         \null
         \abs-fontsize #20 \italic "Sinfonia" 
+        \null
+        \null
+        \null
+        \null
         \null
         \null
         \null
@@ -131,17 +140,19 @@ scoreWoodwinds = <<
     
     \markup \fill-line {
       \center-column {
-        \abs-fontsize #16 \bold "Full Orchestra Score"
+        \abs-fontsize #20 \bold "Full Orchestra Score"
+        \null
+        \null
         \null
         \null
        
-        \box \pad-markup #2  \left-column \larger {
+        \box \pad-markup #4  \left-column \huge {
           \line { "Flute I" }
           \line { "Flute II" }
           \line { "Oboe" }
           \line { "Clarinet (in C and A)" }
           \line { "Bassoon" }
-          \line { "Horn (in E and G)" }
+          \line { "Horns I and II (in E and G)" }
           \line { "Trumpet (in A)" }
           \line { "Trombone" }
           \line { "Timpani (in E and G)" }
@@ -177,9 +188,9 @@ scoreWoodwinds = <<
     \score {
       <<
         \scoreWoodwinds
-    %     \scoreBrass
-    %     \scorePercussion
-    %     \scoreStrings
+        \scoreBrass
+    %    \scorePercussion
+    %    \scoreStrings
       >>
       \layout { }
       \midi {

@@ -185,6 +185,71 @@
   R1*3
   
   % Rehearsal [15]
+  \clef bass
   R1*4
+  e,8\p^"a due" b8 e8 b8 e8\cresc b8 e8 b8 |
+  e8 b8 e8 b8 e8 b8 e8 b8 |
+  dis8 b8 dis8 b8 dis8\dim b8 dis8 b8 |
+  dis8 b8 dis8 b8 dis8 b8 dis8 b8 |
+  
+  % Rehearsal [16]
+  e8\p^"a due" b8 e8 b8 e8 b8 e8 b8 |
+  dis8 b8 dis8 b8 dis8 b8 dis8 b8 |
+  e8 b8 e8 b8 e8 b8 e8 b8 |
+  fis'8 b,8 fis'8 b,8 dis8 b8 dis8 b8 |
+  e8 b8 e8 b8 e8 b8 e8 b8 |
+  dis8 b8 dis8 b8 dis8 b8 dis8 b8 |
+  e8 b8 e8 b8 e8 b8 e8 b8 |
+  fis'8 b,8 fis'8 b,8 dis8 b8 dis8 b8 |
+  e8\mf b8 e8 b8 e8 b8 e8 b8 |
+  dis8 b8 dis8 b8 dis8 b8 dis8 b8 |
+  e8 b8 e8 b8 e8 b8 e8 b8 |
+  fis'8 b,8 fis'8 b,8 dis8 b8 dis8 b8 |
+  e8 b8 e8 b8 fis'8 b,8 dis8 b8 |
+  e8 b8 e8 b8 fis'8 b,8 dis8 b8 |
+  e8 b8 e8 b8 fis'8 b,8 dis8 b8 |
+  e8 b8 e8 b8 fis'8 b,8 dis8 b8 |
+  
+  % Rehearsal [17]
+  e4\ff^"a due" r4 r4 cis4 |
+  fis4 r4 r4 b,4 |
+  e4 r4 r4 cis4 |
+  fis4 r4 r4 b,4 |
+  e4 r4 r2 |
+  R1*3
+  c'8\ff^"a due" c,8 c8 c8 c8 c8 c8 c8 |
+  a8 a8 a8 a8 a8 a8 a8 a8 |
+  a8 a8 a8 a8 a8 a8 a8 a8 |
+  b8 cis8 dis8 e8 fis8 gis8 a8 b8 |
+  b8 a8 gis8 fis8 e8 dis8 cis8 b8 |
+  
+  % Rehearsal [18]
+  e4 r4 r4 cis4 |
+  fis4 r4 r4 b,4 |
+  e4 r4 r4 cis4 |
+  fis4 r4 r4 b,4 |
+  e4 r4 r2 |
+  R1*3
+  c'8\ff^"a due" c,8 c8 c8 c8 c8 c8 c8 |
+  a8 a8 a8 a8 a8 a8 a8 a8 |
+  a8 a8 a8 a8 a8 a8 a8 a8 |
+  b8 cis8 dis8 e8 fis8 gis8 a8 b8 |
+  b8 a8 gis8 fis8 e8 dis8 cis8 b8 |
+  
+  % Rehearsal [19]
+  e4^"a due" r4 cis4 r4 |
+  a4 r4 b4 r4 |
+  e4 r4 cis4 r4 |
+  a4 r4 b4 r4 |
+  e4 a4 b4 b,4 |
+  e4 a4 b4 b,4 |
+  e4 a4 b4 b,4 |
+  e4 e'8-. b8-. gis8-. dis8-. gis8-. b8-. |
+  e,4 e'8-. b8-. gis8-. dis8-. gis8-. b8-. |
+  e,4-. e'4-. b4-. gis4-. |
+  e4-. e'4-. b4-. gis4-. |
+  e2 r2 |
+  e2 r2 |
+  e1\fermata \bar "|."
   
 }

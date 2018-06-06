@@ -230,7 +230,7 @@
   R1*15 |
   
   % Rehearsal [13]
-  R1*20 \bar "||"
+  R1*10 \bar "||"
   
   % Rehearsal [14]
   <<
@@ -290,5 +290,71 @@
   % Rehearsal [15]
   <c, c'>4) r4 r2 |
   <c c'>4 r4 r2 |
+  <g g'>4 r4 r2 |
+  <g g'>4 r4 r2 |
+  <c c'>4 r4 r2 |
+  <c c'>4 r4 r2 |
+  <g g'>4 r4 r2 |
+  <g g'>4 r4 r2 |
+  
+  % Rehearsal [16]
+  r4 <c c'>4\p <c c'>4 <c c'>4 |
+  r4 <g g'>4 <g g'>4 <g g'>4 |
+  r4 <c c'>4 <c c'>4 <c c'>4 |
+  r4 <g g'>4 <g g'>4 <g g'>4 |
+  \set crescendoText = \markup { \italic { cresc. poco a poco } }
+  \set crescendoSpanner = #'text
+  r4 <c c'>4\p <c c'>4\< <c c'>4 |
+  r4 <g g'>4 <g g'>4 <g g'>4 |
+  r4 <c c'>4 <c c'>4 <c c'>4 |
+  r4 <g g'>4 <g g'>4 <g g'>4 |
+  r4 <c c'>8.\mf <c c'>16 <c c'>4 <c c'>4 |
+  r4 <g g'>8. <g g'>16 <g g'>4 <g g'>4 |
+  r4 <c c'>8. <c c'>16 <c c'>4 <c c'>4 |
+  r4 <g g'>8. <g g'>16 <g g'>4 <g g'>4 |  
+  <c c'>4\f <c c'>4-> <g g'>4 <g g'>4 |
+  <c c'>4 <c c'>4-> <g g'>4 <g g'>4 |
+  <c c'>4 <c c'>4-> <g g'>4 <g g'>4 |
+  <c c'>4 <c c'>4-> <g g'>4 <g g'>4 |
+  
+  % Rehearsal [17]
+  <c c '>4\ff r4 r4 <cis' e>4 |
+  <d f>4 r4 r4 <g, d'>4 |
+  <c e>4 r4 r4 <cis e>4 |
+  <d f>4 r4 r4 <g, d'>4 |
+  <e c'>4 r4 r2 |
+  R1*3
+  <c c'>2\ff r2 |
+  R1*2
+  <c' e>1 |
+  <g d'>1 |
+  
+  % Rehearsal [18]
+  <e c'>4 r4 r4 <cis' e>4 |
+  <d f>4 r4 r4 <g, d'>4 |
+  <c e>4 r4 r4 <cis e>4 |
+  <d f>4 r4 r4 <g, d'>4 |
+  <e c'>4 r4 r2 |
+  R1*3
+  <c c'>2\ff r2 |
+  R1*2
+  <c' e>1 |
+  <g d'>1 |
+  
+  % Rehearsal [19]
+  r4 <c e>4 r4 <c e>4 |
+  r4 <d f>4 r4 <g, d'>4 |
+  r4 <c e>4 r4 <c e>4 |
+  r4 <d f>4 r4 <g, d'>4 |
+  <c e>4 <d f>4 <c e>4 <g d'>4 |
+  <c e>4 <d f>4 <c e>4 <g d'>4 |
+  <c e>4 <d f>4 <c e>4 <g d'>4 |
+  <e c'>2-> <e c'>2-> |
+  <e c'>2-> <e c'>2-> |
+  <e c'>4 <e c'>8. <e c'>16 <e c'>4 <e c'>4 |
+  <c' e>4 <c e>8. <c e>16 <c e>4 <c e>4 |
+  <c e>2 r2 |
+  <c e>2 r2 |
+  <e, c'>1\fermata \bar "|."
   
 }

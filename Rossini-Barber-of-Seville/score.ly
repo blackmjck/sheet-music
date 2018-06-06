@@ -13,6 +13,8 @@ partClarinet = \include "partials/clarinets.ily"
 partBassoon = \include "partials/bassoon.ily"
 partHorns = \include "partials/horns.ily"
 
+partViolinI = \include "partials/violin-I.ily"
+
 % Part scoring
 
 scoreFluteIPart = \new Staff \with {
@@ -47,6 +49,12 @@ scoreHornPart = \new Staff \with {
   midiInstrument = "french horn"
 } << \partHorns \rhythms >>
 
+scoreViolinIPart = \new Staff \with {
+  instrumentName = "Violin I"
+  shortInstrumentName = "Vln I"
+  midiInstrument = "violin"
+} << \partViolinI \rhythms >>
+
 % Staff scoring
 
 scoreFlutes = \new StaffGroup {
@@ -74,12 +82,12 @@ scoreBrass = <<
 %   \scoreBassDrum
 % >>
 
-% scoreViolins = \new StaffGroup {
-%   <<
-%     \scoreViolinIPart
+scoreViolins = \new StaffGroup {
+  <<
+    \scoreViolinIPart
 %     \scoreViolinIIPart
-%   >>
-% }
+  >>
+}
  
 % scoreLowerStrings = \new StaffGroup {
 %   <<
@@ -88,13 +96,13 @@ scoreBrass = <<
 %   >>
 % }
  
-% scoreStrings = \new StaffGroup {
-%   <<
-%     \scoreViolins
+scoreStrings = \new StaffGroup {
+  <<
+    \scoreViolins
 %     \scoreViolaPart
 %     \scoreLowerStrings
-%   >>
-% }
+  >>
+}
 
 \book {
   
@@ -190,7 +198,7 @@ scoreBrass = <<
         \scoreWoodwinds
         \scoreBrass
     %    \scorePercussion
-    %    \scoreStrings
+       \scoreStrings
       >>
       \layout { }
       \midi {

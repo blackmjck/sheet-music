@@ -52,7 +52,7 @@ scoreHornPart = \new Staff \with {
 scoreViolinIPart = \new Staff \with {
   instrumentName = "Violin I"
   shortInstrumentName = "Vln I"
-  midiInstrument = "violin"
+  midiInstrument = "string ensemble 1"
 } << \partViolinI \rhythms >>
 
 % Staff scoring

@@ -53,5 +53,252 @@
   R1*3
   
   % Rehearsal [4]
+  R1 |
+  r2 r8 b'8-.\p b8-. b8-. |
+  c8( b8) r4 r4 b8-. b8-. |
+  c8( b8) r4 r8 b8-. b8-. b8-. |
+  c8\( \appoggiatura { d16( c16 } b8-.)\) r8 a8-. a8\( \appoggiatura { b16( a16 } g8-.)\) r8 fis8-. |
+  \acciaccatura g8 fis8( e16) r16 e4.-> g8-. fis8-. e8-. |
+  d8-. e'8-. d4.->\mf c8-. b8-. a8-. |
+  b8-. c8-. b4.-> a8-. g8-. fis8-. |
+  b16\<( a16 g8-.) g16( fis16 e8-.) e16( d16 c8-.) c16( b16 a8-.) |
+  fis16( g16 a8-.) a16( g16 fis8-.) e16( fis16 g8-.) g16( fis16 e8-.) |
+  
+  % Rehearsal [5]
+  <g, e'>2.\f \tuplet 3/2 { e'8-. g8-. b8-. } |
+  e2. \tuplet 3/2 { e8-. g8-. b8-. } |
+  e4 r4 r2 |
+  << e,,1->\trill { s2.( \grace { d16 c16 } s4) } >>  |
+  b2. \tuplet 3/2 { b8-. dis8-. fis8-. } |
+  b2. \tuplet 3/2 { b8-. dis8-. fis8-. } |
+  b4 r4 r2 |
+  << b,1->\trill { s2.( \grace { ais16 b16 } s4) } >> |
+  e,2. \tuplet 3/2 { e8-. g8-. b8-. } |
+  e2. \tuplet 3/2 { e8-. g8-. b8-. } |
+  e4 r4 r2 |
+  << e,,1->\trill { s2.( \grace { dis16 e16 } s4) } >>  |
+  d2. \tuplet 3/2 { d8-. fis8-. a8-. } |
+  d2. \tuplet 3/2 { d8-. fis8-. a8-. } |
+  d4 r4 r2 |
+  << d,1->\trill { s2.( \grace { cis16 d16 } s4) } >> |
+  
+  % Rehearsal [6]
+  g8 d8-. g16( a16 b16 c16) d8-.\ff d8-. d8-. d8-. |
+  d8( e,8) e4.-> c'8-. c8-. c8-. |
+  c8( d,8) d4.-> b'8-. b8-. b8-. |
+  a4 <bes, bes'>2-> a'8.( g16) |
+  fis4 r4 r2 |
+  r8 gis8-. a8-. b8-. c4 r4 |
+  r8 fis,8-. g8-. a8-. b4 r4 |
+  r4 g2->\f fis8.( e16) |
+  d4 r4 r2 |
+  cis8:16\< d8:16 e8:16 fis8:16 g8:16 a8:16 b8:16 cis8:16 |
+  d8:16 e8:16\! fis2-> g,16( fis16 e16 d16) |
+  cis8:16\< d8:16 e8:16 fis8:16 g8:16 a8:16 b8:16 cis8:16 |
+  
+  % Rehearsal [7]
+  d4\! <ees,, ees'>4->\f\downbow r8 d'8-.\p\upbow c8-. bes8-. |
+  a8 c8 g8 c8 fis,8 c'8 ees,8 c'8 |
+  d8 r8 <ees, ees'>4->\f r8 d'8-.\p c8-. bes8-. |
+  a8 c8 g8 c8 fis,8 c'8 ees,8 c'8 |
+  d,8 r8 ees'4->\mf r8 c8-.\p a8-. g8-. |
+  fis8 r8 ees'4->\mf r8 c8-.\p a8-. g8-. |
+  fis8 r8 a'4.->\mf fis8-.\p d8-. c8-. |
+  a8 r8 c'4.->\mf a8-.\p fis8-. d8-. |
+  c8\downbow r8 e'4.\downbow\mf d8-. c8-. b8-. |
+  a8-.\> g8-. fis8-. e8-. d8-. cis8-. c8-. b8-. |
+  bes8-. a8-. aes8-. g8-. fis8-. f8-. e8-. ees8-. |
+  d1\trill\<\( |
+  dis1\trill |
+  e1\trill |
+  << fis1\trill { s2. \grace { e16( fis16) } s4 } >> |
+  
+  % Rehearsal [8]
+  g4\p\) r4 r2 |
+  R1*3 |
+  r4 d'16\p( cis16 d16 e16 d4) r4 |
+  R1*3
+  r4 g,16( fis16 g16 a16 g4) r4 |
+  r4 \tuplet 3/2 { d8-. g8-. b8-. } d4-. d4-. |
+  d2->\>( e,4) \tuplet 3/2 { g'8-.\mf g8-. g8-. } |
+  \tuplet 3/2 { g8( fis8) e8-. } \tuplet 3/2 { e8( d8) c8-. } \tuplet 3/2 { c8( b8) a8-. } \tuplet 3/2 { a8( g8) fis8-. } |
+  g4 r4 r2 |
+  R1*3
+  r4 d'16\p( cis16 d16 e16 d4) r4 |
+  R1*3
+  r4 g,16( fis16 g16 a16 g4) r4 |
+  r4 \tuplet 3/2 { d8-. g8-. b8-. } d4-. d4-. |
+  d2->\>( e,4) \tuplet 3/2 { g'8-.\mf g8-. g8-. } |
+  \tuplet 3/2 { g8( fis8) e8-. } \tuplet 3/2 { e8( d8) c8-. } \tuplet 3/2 { c8( b8) a8-. } \tuplet 3/2 { a8( g8) fis8-. } |
+  
+  % Rehearsal [9]
+  r4 g4\pp^\markup { \italic "dolce" }( a4 b4) |
+  r4 g4( a4 b4) |
+  r4 d4\>( c4 b4) |
+  aes4( b4 a4 b4)\! |
+  r4 g4\cresc( a4 b4) |
+  r4 g4( a4 b4) |
+  r4 d4\dim( c4 b4) |
+  aes4( b4 a4 b4)\! |
+  
+  % Rehearsal [10]
+  b2.:8\p^"al ponticello" c16( b16 a16 b16) |
+  c2.:8 d16( c16 b16 c16) |
+  d2:8 d8. e32( fis32) g8-. g8-. |
+  
+  g8->( fis16) r16 fis8->( e16) r16 e8->( d16) r16 d8->(c16) r16 |
+  \set crescendoText = \markup { \italic { cresc. poco a poco } }
+  \set crescendoSpanner = #'text
+  b8\p g'8-.\< g8-. g8-. g8-. g8-. a16( g16 fis16 g16) |
+  a2.:8 b16( a16 g16 a16) |
+  b2:8 b8. c32( d32) e8-. e8-. |
+  e8->( d16) r16 d8->( c16) r16 c8->( b16) r16 b8->( a16) r16 |
+  b2.:8\rfz c16( b16 a16 b16) |
+  c2.:8 d16( c16 b16 c16) |
+  \ottava #1
+  \set Staff.ottavation = #"8"
+  d8 d8 d8 d8 d8. e32( fis32) g8-. g8-.
+  g8->( fis16) r16 fis8->( e16) r16 e8->( d16) r16 d8->( c16) r16 |
+  b8-.\f \tuplet 3/2 { d16( e16 fis16) } g8-. g8-.\cresc fis8-. e8-. d8-. c8-. |
+  b8-. \tuplet 3/2 { d16( e16 fis16) } g8-. g8-. fis8-. e8-. d8-. c8-. |
+  b8-. \tuplet 3/2 { d16( e16 fis16) } g8-. g8-. fis8-. e8-. d8-. c8-. |
+  \ottava #0
+  \unset Staff.ottavation
+  b8-. \tuplet 3/2 { d16( e16 fis16) } g8-. g8-. fis8-. e8-. d8-. c8-. |
+  
+  % Rehearsal [11]
+  b1:16->\ff |
+  c1:16-> |
+  cis1:16-> |
+  d16-> d16 d16 d16 b16-> b16 b16 b16 c16-> c16 c16 c16 a16-> a16 a16 a16 |
+  b1:16->\ff |
+  c1:16-> |
+  cis1:16-> |
+  d16-> d16 d16 d16 b16-> b16 b16 b16 c16-> c16 c16 c16 a16-> a16 a16 a16 |
+  <g, d' b'>4-> <g e' c'>4-> <g d' b'>4-> <d d' a'>4-> |
+  <g d' b'>4-> <g e' c'>4-> <g d' b'>4-> <d d' a'>4-> |
+  <g d' b'>4-> <g e' c'>4-> <g d' b'>4-> <d d' a'>4-> |
+  
+  % Rehearsal [12]
+  <d b' g'>4-> r4 r4 c'4\p |
+  b4 r4 r4 a4 |
+  g4 r4 r4 fis4 |
+  e4 r4 r4 dis4 |
+  e4 r4 r2 |
+  r2 r8 b''8-.\p b8-. b8-. |
+  c8( b8) r4 r4 b8-. b8-. |
+  c8( b8) r4 r8 b8-. b8-. b8-. |
+  c8( \appoggiatura { d16 c16 } b8-.) r8 a8-. a8( \appoggiatura { b16 a16 } g8-.) r8 fis8-. |
+  \acciaccatura g8 fis8( e16) r16 e4.->( g8-.) g8-. g8-. |
+  fis8( e8) r8 g8-. fis8( e8) r8 g8-. |
+  b8( fis16) r16 fis4.->\downbow fis8\prall g8-. a8-. |
+  a8( g8) g16( fis16 e8-.) e16( d16 c8-.) c16( b16 ais8-.) |
+  b4 r4 r2 |
+  R1*3 
+  
+  % Rehearsal [13]
+  R1 |
+  r2 r8 b'8-.\p b8-. b8-. |
+  c8( b8) r4 r4 b8-. b8-. |
+  c8( b8) r4 r8 b8-. b8-. b8-. |
+  c8( \appoggiatura { d16 c16 } b8-.) r8 a8-. a8( \appoggiatura { b16 a16 } g8-.) r8 fis8-. |
+  \acciaccatura g8 fis8( e16) r16 e4.->( g8-.) fis8-. e8-. |
+  d8-. e'8-. d4.->\mf c8-. b8-. a8-. |
+  b8-. c8-. b4.-> a8-. g8-. fis8-. |
+  b16( a16 g8-.) g16( fis16 e8-.) e16( d16 c8-.) c16( b16 a8-.) |
+  g16\>( a16 b8-.) b16( a16 g8-.) fis16( g16 a8-.) a16( g16 fis8-.)\! \bar "||"
+  
+  % Rehearsal [14]
+  \key e \major
+  e4\p r4 r2 |
+  R1*3
+  r4 b'16\p( ais16 b16 cis16 b4) r4 |
+  R1*3
+  r2 r4 \tuplet 3/2 { e,8-.\p gis8-. b8-. } |
+  e4 \tuplet 3/2 { b8-.\cresc e8-. gis8-. } b4-. b4-. |
+  b2->\>( cis,4) \tuplet 3/2 { e'8-.\mf e8-. e8-. } |
+  \tuplet 3/2 { e8\>( dis8) cis8-. } \tuplet 3/2 { cis8( b8) a8-. } \tuplet 3/2 { a8( gis8) fis8-. } \tuplet 3/2 { fis8( e8) dis8-. } |
+  e4 r4\! r2 |
+  R1*3
+  r4 b'16\p( ais16 b16 cis16 b4) r4 |
+  R1*3
+  r2 r4 \tuplet 3/2 { e,,8-.\p gis8-. b8-. } |
+  e4 \tuplet 3/2 { b8-.\cresc e8-. gis8-. } b4-. b4-. |
+  b2->\>( cis,4) \tuplet 3/2 { e'8-.\mf e8-. e8-. } |
+  \tuplet 3/2 { e8\>( dis8) cis8-. } \tuplet 3/2 { cis8( b8) a8-. } \tuplet 3/2 { a8( gis8) fis8-. } \tuplet 3/2 { fis8( e8) dis8-. } |
+  
+  % Rehearsal [15]
+  r4\! gis,4\pp^\markup { \italic "dolce" }( a4 b4) |
+  r4 gis4( a4 b4) |
+  r4 dis4\>( cis4 b4) |
+  ais4( b4 a4 b4) |
+  r4\! gis4\p\cresc( a4 b4) |
+  r4 gis4( a4 b4) |
+  r4 dis4\dim( cis4 b4) |
+  ais4( b4 a4 b4) |
+  
+  % Rehearsal [16]
+  gis8\p^"al ponticello" gis8 gis8 gis8 gis8 gis8 a16( gis16 fis16 gis16) |
+  a8 a8 a8 a8 a8 a8 b16( a16 gis16 a16) |
+  b8 b8 b8 b8 b8. cis32( dis32) e8-. e8-. |
+  e8->( dis16) r16 dis8->( cis16) r16 cis8->( b16) r16 b8->( a16) r16 |
+  gis8 e'8 e8 e8 e8\< e8 fis16( e16 dis16 e16) |
+  fis8 fis8 fis8 fis8 fis8 fis8 gis16( fis16 e16 fis16) |
+  gis8 gis8 gis8 gis8 gis8. a32( b32) cis8-. cis8-. |
+  cis8->( b16) r16 b8->( a16) r16 a8->( gis16) r16 gis8->( fis16) r16 | 
+  gis8\mf gis8 gis8\cresc gis8 gis8 gis8 a16( gis16 fis16 gis16) |
+  a8 a8 a8 a8 a8 a8 b16( a16 gis16 a16) |
+  b8 b8 b8 b8 b8. cis32( dis32) e8-. e8-. |
+  e8->( dis16) r16 dis8->( cis16) r16 cis8->( b16) r16 b8->( a16) r16 |
+  gis8-. \tuplet 3/2 { b16\f( cis16 dis16) } e8-. e8-. dis8-. cis8-. b8-. a8-. |
+  gis8-. \tuplet 3/2 { b16( cis16 dis16) } e8-. e8-. dis8-. cis8-. b8-. a8-. |
+  gis8-. \tuplet 3/2 { b16( cis16 dis16) } e8-. e8-. dis8-. cis8-. b8-. a8-. |
+  gis8-. \tuplet 3/2 { b16( cis16 dis16) } e8-. e8-. dis8-. cis8-. b8-. a8-. |
+  
+  % Rehearsal [17]
+  gis4\ff r4 r4 <eis, cis' gis'>4 |
+  <fis cis' a'>4 r4 r4 <fis dis' b'>4 |
+  <e b' gis'>4 r4 r4 <eis cis' gis'>4 |
+  <fis cis' a'>4 r4 r4 <fis dis' b'>4 |
+  e'4 e'2-> dis4->~ |
+  dis4 d2-> cis4->~ |
+  cis4 b2-> ais4->~ |
+  ais4 a2-> g4-.-> |
+  <e c'>1:8\ff |
+  <f c'>1:8 |
+  <a, c'>1:8 |
+  <gis' e'>1:8 |
+  <fis dis'>1:8 |
+  
+  % Rehearsal [18]
+  <gis e'>4 r4 r4 <eis, cis' gis'>4 |
+  <fis cis' a'>4 r4 r4 <fis dis' b'>4 |
+  <e b' gis'>4 r4 r4 <eis cis' gis'>4 |
+  <fis cis' a'>4 r4 r4 <fis dis' b'>4 |
+  e'4 e'2-> dis4->~ |
+  dis4 d2-> cis4->~ |
+  cis4 b2-> ais4->~ |
+  ais4 a2-> g4-.-> |
+  <e c'>1:8\ff |
+  <f c'>1:8 |
+  <a, c'>1:8 |
+  <gis' e'>1:8 |
+  <fis dis'>1:8 |
+  
+  % Rehearsal [19]
+  <gis e'>4 r8 <gis e'>8 <gis e'>4 r8 <gis e'>8 |
+  <a fis'>4 r8 <a fis'>8 <fis dis'>4 r8 <fis dis'>8 |
+  <gis e'>4 r8 <gis e'>8 <gis e'>4 r8 <gis e'>8 |
+  <a fis'>4 r8 <a fis'>8 <fis dis'>4 r8 <fis dis'>8 |
+  e'8 e8 fis8 fis8 e8 e8 dis8 dis8 | 
+  e8 e8 fis8 fis8 e8 e8 dis8 dis8 |
+  e8 e8 fis8 fis8 e8 e8 dis8 dis8 |
+  e4 e8-. b8-. gis8-. e8-. gis8-. b8-. |
+  e4 e8-. b8-. gis8-. e8-. gis8-. b8-. |
+  e4-. <gis,, e'>8. <gis e'>16 <gis e'>4 <gis e'>4 |
+  <b gis'>4 <b gis'>4 <b b'>4 <b b'>4 |
+  e'2 r2 |
+  <gis, e'>2 r2 |
+  <gis,, e'>1\fermata \bar "|."
   
 }

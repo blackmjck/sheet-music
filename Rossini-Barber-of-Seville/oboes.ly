@@ -32,6 +32,6 @@ partOboes = \include "partials/oboes.ily"
   } << \partOboes \rhythms { \compressFullBarRests } >>
   \layout { }
   \midi {
-    \tempo 4=80
+    \tempo 4=68
   }
 }

@@ -51,6 +51,6 @@ scoreFluteIIPart = \new Staff \with {
   }
   \layout { }
   \midi {
-    \tempo 4=76
+    \tempo 4=68
   }
 }

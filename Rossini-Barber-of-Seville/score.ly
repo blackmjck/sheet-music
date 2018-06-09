@@ -12,8 +12,16 @@ partOboe = \include "partials/oboes.ily"
 partClarinet = \include "partials/clarinets.ily"
 partBassoon = \include "partials/bassoon.ily"
 partHorns = \include "partials/horns.ily"
+partTrumpet = \include "partials/trumpet.ily"
+partTrombone = \include "partials/trombone.ily"
+partTimpani = \include "partials/timpani.ily"
+partBassDrum = \include "partials/bass-drum.ily"
 
 partViolinI = \include "partials/violin-I.ily"
+partViolinII = \include "partials/violin-II.ily"
+% partViola = \include "partials/viola.ily"
+% partCello = \include "partials/cello.ily"
+% partContrabass = \include "partials/contrabass.ily"
 
 % Part scoring
 
@@ -41,7 +49,7 @@ scoreClarinetPart = \new Staff \with {
 
 scoreBassoonPart = \new Staff \with {
   instrumentName = "Bassoon"
-  shortInstrumentName = "Bas."
+  shortInstrumentName = "Bn."
   midiInstrument = "bassoon"
 } << \partBassoon \rhythms >>
 
@@ -49,11 +57,68 @@ scoreHornPart = \new Staff \with {
   midiInstrument = "french horn"
 } << \partHorns \rhythms >>
 
+scoreTrumpetPart = \new Staff \with {
+  instrumentName = \markup {
+    \column { "Trumpet"
+      \line { "in A" }
+    }
+  }
+  shortInstrumentName = \markup {
+    \column { "Tpt."
+      \line { \italic { "in A" } }
+    }
+  }
+  midiInstrument = "trumpet"
+} << \partTrumpet \rhythms >>
+
+scoreTrombonePart = \new Staff \with {
+  instrumentName = "Trombone"
+  shortInstrumentName = "Tbn."
+  midiInstrument = "trombone"
+} << \partTrombone \rhythms >>
+
+scoreTimpaniPart = \new Staff \with {
+  instrumentName = "Timpani"
+  shortInstrumentName = "Timp."
+  midiInstrument = "timpani"
+} << \partTimpani \rhythms >>
+
+scoreBassDrumPart = \new DrumStaff \with {
+  \consists "Page_turn_engraver"
+  instrumentName = "Bass Drum"
+  shortInstrumentName = "Ba. D."
+  midiInstrument = "timpani"
+} << \new DrumVoice \partBassDrum >>
+
 scoreViolinIPart = \new Staff \with {
   instrumentName = "Violin I"
-  shortInstrumentName = "Vln I"
-  midiInstrument = "string ensemble 1"
+  shortInstrumentName = "Vln. I"
+  midiInstrument = "violin"
 } << \partViolinI \rhythms >>
+
+scoreViolinIIPart = \new Staff \with {
+  instrumentName = "Violin II"
+  shortInstrumentName = "Vln. II"
+  midiInstrument = "violin"
+} << \partViolinII \rhythms >>
+
+% scoreViolaPart = \new Staff \with {
+%   instrumentName = "Viola"
+%   shortInstrumentName = "Va."
+%   midiInstrument = "viola"
+% } << \partViola \rhythms >>
+
+% scoreCelloPart = \new Staff \with {
+%   instrumentName = "Cello"
+%   shortInstrumentName = "Vc."
+%   midiInstrument = "cello"
+% } << \partCello \rhythms >>
+
+% scoreContrabassPart = \new Staff \with {
+%   instrumentName = "Contrabass"
+%   shortInstrumentName = "Db."
+%   midiInstrument = "contrabass"
+% } << \partContrabass \rhythms >>
 
 % Staff scoring
 
@@ -73,26 +138,26 @@ scoreWoodwinds = <<
   
 scoreBrass = <<
   \scoreHornPart
-%   \scoreTrumpetPart
-%   \scoreTrombonePart
+  \scoreTrumpetPart
+  \scoreTrombonePart
 >>
 
-% scorePercussion = <<
-%   \scoreTimpani
-%   \scoreBassDrum
-% >>
+scorePercussion = <<
+  \scoreTimpaniPart
+  \scoreBassDrumPart
+>>
 
 scoreViolins = \new StaffGroup {
   <<
     \scoreViolinIPart
-%     \scoreViolinIIPart
+    \scoreViolinIIPart
   >>
 }
  
 % scoreLowerStrings = \new StaffGroup {
 %   <<
 %     \scoreCelloPart
-%     \scoreBassPart
+%     \scoreContrabassPart
 %   >>
 % }
  
@@ -197,10 +262,20 @@ scoreStrings = \new StaffGroup {
       <<
         \scoreWoodwinds
         \scoreBrass
-    %    \scorePercussion
-       \scoreStrings
+        \scorePercussion
+        \scoreStrings
       >>
       \layout { }
+    }
+    \score {
+      \unfoldRepeats {
+      <<
+        \scoreWoodwinds
+        \scoreBrass
+        \scorePercussion
+        \scoreStrings
+      >>
+      }
       \midi {
         \tempo 4=68
       }

@@ -20,7 +20,7 @@
   s1*6
   
   \mark \default % measure 25 [3]
-  \tempo "Allegro con brio" 4 = 140
+  \tempo "Allegro con brio" 4 = 152
   
   s1*13
   
@@ -77,7 +77,7 @@
   s1*16
   
   \mark \default % measure 225 [17]
-  \tempo "Piu mosso" 4 = 152
+  \tempo "Piu mosso" 4 = 172
   
   s1*13
   

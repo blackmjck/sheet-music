@@ -32,6 +32,6 @@ partFluteII = \include "partials/flute-II.ily"
   } << \partFluteII \rhythms { \compressFullBarRests } >>
   \layout { }
   \midi {
-    \tempo 4=76
+    \tempo 4=68
   }
 }

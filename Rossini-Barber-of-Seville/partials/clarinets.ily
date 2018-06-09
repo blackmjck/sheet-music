@@ -15,7 +15,7 @@
     }
   }
   \set Staff.shortInstrumentName = \markup {
-    \column { "Cla."
+    \column { "Cl."
       \line { \italic "in C" }
     }
   }
@@ -211,7 +211,7 @@
     }
   }
   \set Staff.shortInstrumentName = \markup {
-    \column { "Cla."
+    \column { "Cl."
       \line { \italic "in A" }
     }
   }

@@ -8,12 +8,12 @@
   
   % Start with E Horns
   \set Staff.instrumentName = \markup {
-    \column { "Horns I and"
+    \column { "Horns I &"
       \line { "II in E" \natural }
     }
   }
   \set Staff.shortInstrumentName = \markup {
-    \column { "Horn"
+    \column { "Hn."
       \line { \italic { "in E" }\natural }
     }
   }
@@ -147,7 +147,7 @@
     }
   }
   \set Staff.shortInstrumentName = \markup {
-    \column { "Horn"
+    \column { "Hn."
       \line { \italic "in G" }
     }
   }
@@ -222,7 +222,7 @@
     }
   }
   \set Staff.shortInstrumentName = \markup {
-    \column { "Horn"
+    \column { "Hn."
       \line { \italic { "in E" }\natural }
     }
   }
@@ -266,19 +266,19 @@
   \set doubleSlurs = ##f
   <<
     {
-      cis'2->\>( d2)\! |
+      cis'2->\p\>( d2)\! |
     } \\ {
       g,1 |
     }
   >>
   \set doubleSlurs = ##t
-  <g d'>1~ |
+  <g d'>1\p~ |
   <g d'>1~ |
   <g d'>1 |
   \set doubleSlurs = ##f
   <<
     {
-      dis'2->\>( e4)\!
+      dis'2->\p\>( e4)\!
     } \\ {
       c2->~ c4
     }

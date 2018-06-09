@@ -37,6 +37,6 @@ partClarinet = \include "partials/clarinets.ily"
   } >>
   \layout { }
   \midi {
-    \tempo 4=80
+    \tempo 4=68
   }
 }

@@ -129,7 +129,7 @@
   \repeat unfold 2 { \repeat tremolo 4 c'8 } |
   \repeat unfold 2 { \repeat tremolo 4 b8 } |
   \repeat tremolo 4 cis8 \repeat tremolo 4 b8 |
-  \repeat tremolo 4 a8 \repeat tremolo 4 g8 |
+  \repeat tremolo 4 a8 \repeat tremolo 4 gis8 |
   a4 r4 r4 a,\p( |
   b4 cis d dis |
   fis4 e) r4 a,( |
@@ -250,7 +250,7 @@
   cis4\f a, r4 cis' |
   d4 a, r4 d' |
   e4 a, r4 e' |
-  fis4 a, gis' a, |
+  fis4 a, g' a, |
   
   % Rehearsal [I] - 198
   \repeat unfold 6 { \repeat unfold 2 { \repeat tremolo 4 <fis' d'>8 } | }

@@ -6,6 +6,10 @@
 
 \include "../styles/papers.ily"
 
+allNotes = \include "../partials/violin-1.ily"
+rhythms = \include "../partials/rhythms.ily"
+compression = { \compressFullBarRests }
+
 \book {
 
   \paper {
@@ -24,13 +28,24 @@
       
       \new Staff \with {
         \consists "Page_turn_engraver"
-      } <<
-        \include "../partials/violin-1.ily"
-        \include "../partials/rhythms.ily"
-        { \compressFullBarRests }
-      >>
+        
+        %{
+          There aren't a lot of good page turn spots in the 1st 
+          violin part, so shrink the minimum needed to break
+        %}
+        minimumPageTurnLength = #(ly:make-moment 3/4)
+        
+      } << \allNotes \rhythms \compression >>
       
       \layout {}
+      
+    }
+    
+    \score {
+      
+      \new Staff \with {
+        midiInstrument = "violin"
+      } << \unfoldRepeats { \allNotes } \rhythms >>
       
       \midi {}
       

@@ -232,3 +232,4 @@ staffTrumpets = \new Staff \with {
   shortInstrumentName = "Tpt"
   midiInstrument = "trumpet"
 } << \partTrumpetI \partTrumpetII \rhythms >>
+

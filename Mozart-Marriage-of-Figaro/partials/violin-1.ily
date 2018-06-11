@@ -67,8 +67,6 @@
   >> |
   fis8 e d cis b a g fis |
   b8\f c d e fis g a b |
-  
-  % Measure 42
   c1 |
   \repeat tremolo 4 b8 \repeat tremolo 4 a8 |
   \repeat tremolo 4 b8 \repeat tremolo 4 cis8 |

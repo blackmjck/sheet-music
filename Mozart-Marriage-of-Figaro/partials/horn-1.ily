@@ -5,11 +5,11 @@
 \relative c' {
   
   \include "../styles/globals.ily"
-  
-  \transposition d
     
-  \key c \major
+  \transposition d
   
+  \key c \major
+    
   R1*7
   e'2.\p( d4) |
   

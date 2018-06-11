@@ -5,10 +5,10 @@
 \relative c' {
   
   \include "../styles/globals.ily"
-  
+    
   \transposition a
     
-  \key f \major
+  \key d \minor
   
   R1*8
   

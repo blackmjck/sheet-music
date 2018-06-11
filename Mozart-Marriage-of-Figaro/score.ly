@@ -44,6 +44,15 @@ scoreStrings = \new StaffGroup \with {
   
     \score {
       
+      \layout {
+        \context {
+          \Score
+          % Show all measure numbers (except the very first, and the end of the line ones)
+          \override BarNumber.break-visibility = ##(#f #t #t)
+          barNumberVisibility = #all-bar-numbers-visible
+        }
+      }
+      
       \new StaffGroup \with {
         % Get the end-connectedness of a group without the starting brace
         systemStartDelimiter = #'SystemStartBar
@@ -58,8 +67,6 @@ scoreStrings = \new StaffGroup \with {
           \staffTimpani
           \scoreStrings
         >>
-      
-      \layout { }
       
     }
     

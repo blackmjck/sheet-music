@@ -91,5 +91,36 @@
     d1 |
   }
   cis8 cis' cis cis \repeat tremolo 4 cis8\f |
+  \repeat tremolo 4 c8\p \repeat tremolo 4 c8 |
+  \repeat tremolo 4 b8 \repeat tremolo 4 b8\f |
+  \repeat tremolo 4 bes8\p \repeat tremolo 4 bes8 |
+  \repeat tremolo 4 a8 \repeat tremolo 4 a8\f |
+  \repeat tremolo 4 a8\p \repeat tremolo 4 a8 |
+  \repeat tremolo 4 d,8\f \repeat tremolo 4 d8 |
+  \repeat tremolo 4 cis8 \repeat tremolo 4 cis8 |
+  \repeat tremolo 4 gis'8 \repeat tremolo 4 gis8 |
+  \repeat tremolo 4 a8 \repeat tremolo 4 <b gis'>8 |
+  
+  % Rehearsal [C] - 85
+  \repeat unfold 6 { \repeat unfold 2 { \repeat tremolo 4 <cis a'>8 } | }
+  \repeat unfold 2 { \repeat tremolo 4 <a a'>8 } |
+  \repeat tremolo 4 a'8 \repeat tremolo 4 gis8 |
+  \repeat tremolo 4 a8 \repeat tremolo 4 d,8 |
+  \repeat tremolo 4 cis8 \repeat tremolo 4 b8 |
+  cis4 r4 r4 a,\p( |
+  b4 cis d dis |
+  fis4 e) r4 (a, |
+  b4 cis d dis |
+  fis4 e) r4 (a, |
+  b4 c d e) |
+  f1~ |
+  f1~ |
+  f2( e2~) |
+  e2( d2~) |
+  d2( c2) |
+  #(define afterGraceFraction (cons 15 16))
+  \afterGrace b1\trill( { a16[ b]) } |
+  
+  % Rehearsal [D] - 107
   
 }

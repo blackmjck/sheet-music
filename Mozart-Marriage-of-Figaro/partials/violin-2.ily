@@ -38,6 +38,7 @@
   
   % Rehearsal [A] - 24
   d4 r4 r2 |
+  \allowPageTurn
   R1*4
   << 
     {
@@ -167,6 +168,7 @@
   
   % Rehearsal [G] - 145
   d4 r4 r2 |
+  \allowPageTurn
   R1*4
   << 
     {

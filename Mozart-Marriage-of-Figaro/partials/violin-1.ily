@@ -202,7 +202,7 @@
   \repeat unfold 2 { a4 cis \appoggiatura { d32 cis b } cis4 d8 b | }
   a4 r4 <d,, b' g'>4 r4 |
   <d a' fis'>4 r4 <a' cis e>4 r4 |
-  d,8\pp( cis d cis d4) r4 |
+  d,8\p( cis d cis d4) r4 |
   d8( cis d e fis e fis g) |
   a8( gis a gis a4) r4 |
   d,8( cis d e fis e fis d) |

@@ -109,9 +109,9 @@
   \repeat tremolo 4 cis8 \repeat tremolo 4 b8 |
   cis4 r4 r4 a,\p( |
   b4 cis d dis |
-  fis4 e) r4 (a, |
+  fis4 e) r4 a,( |
   b4 cis d dis |
-  fis4 e) r4 (a, |
+  fis4 e) r4 a,( |
   b4 c d e) |
   f1~ |
   f1~ |
@@ -150,11 +150,11 @@
   \repeat unfold 2 { \repeat tremolo 4 fis8 } |
   \repeat tremolo 4 g8\fp \repeat tremolo 4 g8 |
   \repeat tremolo 4 fis8\fp \repeat tremolo 4 fis8 |
-  <d cis'>4\f <d cis'>2 <d cis'>4~ |
-  <d cis'>4 <d cis'>2 <d cis'>4~ |
+  <e cis'>4\f <e cis'>2 <e cis'>4~ |
+  <e cis'>4 <e cis'>2 <e cis'>4~ |
   
   % Rehearsal [F] - 135
-  <d cis'>4 r8 dis'8\p \repeat unfold 2 { e dis } |
+  <e cis'>4 r8 dis'8\p \repeat unfold 2 { e dis } |
   \repeat unfold 4 { e8 dis } |
   e8 d cis d cis b a b |
   a8 g fis g fis e d cis |
@@ -205,5 +205,132 @@
   >> r2 |
   
   % Rehearsal [H] - 172
+  \repeat unfold 2 {
+    \repeat unfold 2 { \repeat tremolo 4 fis'8\fp fis8 fis e e | }
+    \repeat unfold 2 { \repeat tremolo 4 d8\fp d8 d cis cis | }
+    \repeat unfold 2 { \repeat tremolo 4 b8\fp b8 b a a | }
+    g1~ |
+    g1 |
+  }
+  \repeat tremolo 4 fis8 \repeat tremolo 4 fis8\f |
+  \repeat tremolo 4 f8\p \repeat tremolo 4 f8 |
+  \repeat tremolo 4 e8 \repeat tremolo 4 e8\f |
+  \repeat tremolo 4 ees8\p \repeat tremolo 4 ees8 |
+  \repeat tremolo 4 d8 \repeat tremolo 4 d8\f |
+  \repeat tremolo 4 d8\p \repeat tremolo 4 d8 |
+  \repeat tremolo 4 g8\f \repeat tremolo 4 g8 |
+  \repeat tremolo 4 fis8 \repeat tremolo 4 fis8 |
+  \repeat tremolo 4 g8 \repeat tremolo 4 g8 |
+  \repeat tremolo 4 fis8 \repeat tremolo 4 <cis' e>8 |
+  
+  % Rehearsal [I] - 198
+  \repeat unfold 6 { \repeat unfold 2 { \repeat tremolo 4 <d fis>8 } | }
+  \repeat unfold 2 { \repeat tremolo 4 <d f>8 } |
+  \repeat unfold 2 { \repeat tremolo 4 <d b'>8 \repeat tremolo 4 <cis a'>8 | }
+  \repeat tremolo 4 d8 \repeat tremolo 4 cis8 |
+  d4 r4 r4 d,\p( |
+  e4 fis g gis |
+  b4 a) r4 d,( |
+  e4 fis g gis |
+  b4 a) r4 d,( |
+  e4 f g a) |
+  \repeat unfold 2 { bes1~ | }
+  bes2( a~) |
+  a2( g~) |
+  g2( f2) |
+  \afterGrace e1\trill( { d16[ e]) } |
+  
+  % Rehearsal [J] - 220
+  d8-. a'-. \repeat unfold 3 { fis-. a-. } |
+  \repeat unfold 4 { fis8-. a-. } |
+  \repeat unfold 2 { g8-. a-. } \repeat unfold 2 { e-. a-. } |
+  \repeat unfold 2 { fis8-. a-. } \repeat unfold 2 { e-. a-. } |
+  \repeat unfold 4 { fis8-. a-. } |
+  \repeat unfold 4 { d,8-. a'-. } |
+  \repeat unfold 4 { cis,8-. g'-. } |
+  \repeat unfold 4 { e8-. g-. } |
+  \repeat unfold 4 { d8-. fis-. } |
+  a,1~ |
+  a2 cis( |
+  d2 e) |
+  d1~ |
+  d1~ |
+  d1 |
+  cis2( a) |
+  
+  % Rehearsal [K] - 236
+  a4 r4 r2 |
+  R1 |
+  d8\pp cis b a b a b cis |
+  d8 cis d fis e d e g |
+  fis8 e d cis d cis d e |
+  fis8 e d e fis g a fis |
+  g8 fis g fis g a b g |
+  e8 d cis d e fis g e |
+  fis8\cresc a g fis g fis g e |
+  fis8 e fis d cis b cis e |
+  d8 cis b a b a b cis |
+  d8 cis d fis e d e g |
+  fis8 e d cis d cis d e |
+  fis4 d'8 e fis g a fis |
+  \repeat tremolo 4 g8\f \repeat tremolo 4 fis |
+  \repeat tremolo 4 g8 \repeat tremolo 4 e |
+  
+  % Rehearsal [L] - 252
+  fis2 r4 b4-. |
+  \repeat unfold 2 { a4-. fis-. r4 b-. | }
+  a4-. fis-. a-. b-. |
+  \repeat unfold 6 a8 cis a |
+  \repeat unfold 2 { d8 \repeat unfold 5 a8 cis a | }
+  \repeat unfold 2 { d8 a cis a } |
+  d8 cis b a g fis e d |
+  cis8 b a g fis e d cis |
+  b1 |
+  \afterGrace cis1\trill( { b16[ cis]) } |
+  d4 r4 <d a' fis'> r4 |
+  <d b' g'>4 r4 <a' cis e> r4 |
+  fis'2 r4b4-. |
+  \repeat unfold 2 { a4-. fis-. r4 b-. | }
+  a4-. fis-. a-. b-. |
+  \repeat unfold 6 a8 cis a |
+  \repeat unfold 2 { d8 \repeat unfold 5 a8 cis a | }
+  \repeat unfold 2 { d8 a cis a } |
+  d8 cis b a g fis e d |
+  cis8 b a g fis e d cis |
+  b1 |
+  \afterGrace cis1\trill( { b16[ cis]) } |
+  d4 r4 <d a' fis'> r4 |
+  <d b' g'>4 r4 <a' cis e> r4 |
+  b,1 |
+  \afterGrace cis1\trill( { b16[ cis]) } |
+  d4 r4 <d a' fis'> r4 |
+  <d b' g'>4 r4 <a' cis e> r4 |
+  
+  % Rehearsal [M] - 284
+  \repeat unfold 2 { \repeat unfold 8 <fis d'>8 | }
+  \repeat unfold 2 { \repeat unfold 8 <d a'>8 | }
+  \repeat unfold 2 { \repeat unfold 8 <a fis'>8 | }
+  <a fis'>4 r4 <d a' fis'> r4 |
+  \repeat unfold 2 { <d a' fis'>4 r4 } |
+  \repeat unfold 2 {
+    << 
+      {
+        \once \stemDown
+        <d a'>4 s4
+      } \\ {
+        \once \stemUp
+        fis'2
+      } 
+    >> r2 |
+  }
+  << 
+    {
+      \once \stemDown
+      <d, a'>4 s4
+    } \\ {
+      \once \stemUp
+      fis'2
+    } 
+  >> r2 \bar "|."
   
 }

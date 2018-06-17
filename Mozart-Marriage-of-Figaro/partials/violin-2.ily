@@ -309,9 +309,9 @@
   <d b' g'>4 r4 <a' cis e> r4 |
   
   % Rehearsal [M] - 284
-  \repeat unfold 2 { \repeat unfold 8 <fis d'>8 | }
-  \repeat unfold 2 { \repeat unfold 8 <d a'>8 | }
-  \repeat unfold 2 { \repeat unfold 8 <a fis'>8 | }
+  \repeat unfold 2 { \repeat unfold 2 { \repeat tremolo 4 <fis d'>8 } | }
+  \repeat unfold 2 { \repeat unfold 2 { \repeat tremolo 4 <d a'>8 } | }
+  \repeat unfold 2 { \repeat unfold 2 { \repeat tremolo 4 <a fis'>8 } | }
   <a fis'>4 r4 <d a' fis'> r4 |
   \repeat unfold 2 { <d a' fis'>4 r4 } |
   \repeat unfold 2 {

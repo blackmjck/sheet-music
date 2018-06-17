@@ -12,7 +12,7 @@ scorePaper = \paper {
   
   % Center page numbers at the bottom with the title
   print-page-number = ##t
-  print-first-page-number = ##t
+  print-first-page-number = ##f
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
   oddFooterMarkup = \markup {

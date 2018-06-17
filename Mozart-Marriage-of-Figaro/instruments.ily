@@ -2,28 +2,30 @@
 
 \version "2.18.2"
 
-rhythms = \include ".\partials/rhythms.ily"
+#(ly:set-option 'relative-includes #t)
+
+rhythms = \include "./partials/rhythms.ily"
 
 %{
   Import note sets separately by instrument and voice
 %}
-partFluteI = \include ".\partials/flute-1.ily"
-partFluteII = \include ".\partials/flute-2.ily"
-partOboeI = \include ".\partials/oboe-1.ily"
-partOboeII = \include ".\partials/oboe-2.ily"
-partClarinetI = \include ".\partials/clarinet-1.ily"
-partClarinetII = \include ".\partials/clarinet-2.ily"
-partBassoon = \include ".\partials/bassoon.ily"
-partHornI = \include ".\partials/horn-1.ily"
-partHornII = \include ".\partials/horn-2.ily"
-partTrumpetI = \include ".\partials/trumpet-1.ily"
-partTrumpetII = \include ".\partials/trumpet-2.ily"
-partTimpani = \include ".\partials/timpani.ily"
-partViolinI = \include ".\partials/violin-1.ily"
-partViolinII = \include ".\partials/violin-2.ily"
-partViola = \include ".\partials/viola.ily"
-partCello = \include ".\partials/cello.ily"
-partBass = \include ".\partials/bass.ily"
+partFluteI = \include "./partials/flute-1.ily"
+partFluteII = \include "./partials/flute-2.ily"
+partOboeI = \include "./partials/oboe-1.ily"
+partOboeII = \include "./partials/oboe-2.ily"
+partClarinetI = \include "./partials/clarinet-1.ily"
+partClarinetII = \include "./partials/clarinet-2.ily"
+partBassoon = \include "./partials/bassoon.ily"
+partHornI = \include "./partials/horn-1.ily"
+partHornII = \include "./partials/horn-2.ily"
+partTrumpetI = \include "./partials/trumpet-1.ily"
+partTrumpetII = \include "./partials/trumpet-2.ily"
+partTimpani = \include "./partials/timpani.ily"
+partViolinI = \include "./partials/violin-1.ily"
+partViolinII = \include "./partials/violin-2.ily"
+partViola = \include "./partials/viola.ily"
+partCello = \include "./partials/cello.ily"
+partBass = \include "./partials/bass.ily"
 
 
 %{

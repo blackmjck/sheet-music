@@ -2,6 +2,8 @@
 
 #(ly:set-option 'relative-includes #t)
 
+\include "./styles/markup.ly"
+
 \include "./styles/papers.ily"
 
 \include "./instruments.ily"
@@ -30,16 +32,16 @@ scoreStrings = \new StaffGroup \with {
 
 \book {
 
-  \include "./styles/header.ily"
-  
   \paper {
     \scorePaper
   }
   
+  \include "./partials/cover.ily"
+  
   \bookpart {
       
     \header {
-      poet = \markup { \bold \larger "Full Score" }
+      title = "Le Nozze di Figaro"
     }
   
     \score {

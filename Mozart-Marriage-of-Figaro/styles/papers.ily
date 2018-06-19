@@ -21,7 +21,7 @@ scorePaper = \paper {
       \fill-line {
         \on-the-fly \print-page-number-check-first
         \concat {
-          \bold { \fromproperty #'header:title }
+          \bold { "Le Nozze di Figaro" }
           " &mdash; " 
           \bold { \fromproperty #'page:page-number-string }
         }

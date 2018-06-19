@@ -2,7 +2,7 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "./styles/markup.ly"
+\include "./styles/markup.ily"
 
 \include "./styles/papers.ily"
 
@@ -40,9 +40,7 @@ scoreStrings = \new StaffGroup \with {
   
   \bookpart {
       
-    \header {
-      title = "Le Nozze di Figaro"
-    }
+    \header {}
   
     \score {
       

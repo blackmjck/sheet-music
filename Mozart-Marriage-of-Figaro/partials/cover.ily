@@ -28,7 +28,7 @@
       \null
       \abs-fontsize #28 \bold "Le Nozze di Figaro"
       \abs-fontsize #12 \null
-      \abs-fontsize #22 \italic "Ouverture" 
+      \abs-fontsize #22 \italic "Overture" 
       \abs-fontsize #12 \null
       \abs-fontsize #12 "K. 492"
       \null
@@ -62,8 +62,7 @@
         \line { "Horns I and II (in D)" }
         \line { "Trumpets I and II (in D)" }
         \line { "Timpani (in D and A)" }
-        \line { "Violin I" }
-        \line { "Violin II" }
+        \line { "Violin I and II" }
         \line { "Viola" }
         \line { "Cello" }
         \line { "Double Bass" }

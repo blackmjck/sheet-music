@@ -160,6 +160,6 @@
   }
   \repeat unfold 2 { d4 r4 d r4 | }
   \repeat unfold 2 { d4 r4 r2 | }
-  d2 r4 \bar "|."
+  d2 r2 \bar "|."
   
 }

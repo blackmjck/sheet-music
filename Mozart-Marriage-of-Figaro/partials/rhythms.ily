@@ -7,7 +7,7 @@
   \include "../styles/globals.ily"
   
   % Measure 1
-  \tempo "Presto" 4 = 228
+  \tempo "Presto" 2 = 145
   
   s1*23
   

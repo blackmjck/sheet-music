@@ -22,11 +22,16 @@
       \null
       \null
       \null
+      \null
+      \null
+      \null
+      \null
       \abs-fontsize #28 \bold "Le Nozze di Figaro"
       \abs-fontsize #12 \null
-      \abs-fontsize #22 "Ouverture" 
+      \abs-fontsize #22 \italic "Ouverture" 
       \abs-fontsize #12 \null
       \abs-fontsize #12 "K. 492"
+      \null
       \null
       \null
       \abs-fontsize #20 \italic "Wolfgang Amadeus Mozart" 

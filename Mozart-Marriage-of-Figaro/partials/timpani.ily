@@ -100,8 +100,8 @@
   R1 |
   r2 d4\f r4 |
   R1 |
-  r2 a4\f r4 |
-  r2 a4 r4 |
+  a4\f r4 r2 |
+  a4 r4 r2 |
   a2 a4. a8 |
   a4 r4 a r4 |
   
